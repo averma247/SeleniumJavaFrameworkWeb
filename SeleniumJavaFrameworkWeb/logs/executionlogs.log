@@ -1,0 +1,756 @@
+[INFO ] 2020-04-23 11:37:51.880 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 11:37:51.904 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 11:37:51.904 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 11:37:51.904 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:37:51.905 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 11:37:51.905 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 11:37:51.907 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 11:37:51.907 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 11:37:51.907 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:37:51.908 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 11:37:51.908 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 11:37:59.649 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:38:00.292 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:38:00.293 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:38:00.293 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:38:00.293 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:38:00.298 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:38:00.298 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:38:00.298 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:38:00.298 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:38:00.343 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:38:03.702 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:38:03.706 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:38:03.751 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:38:03.751 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:38:03.905 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-04-23 11:38:04.019 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:38:05.471 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:38:05.471 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:38:05.474 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:38:05.518 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-04-23 11:38:05.544 [main] Test99GuruLogin - Test is verified.
+[INFO ] 2020-04-23 11:38:05.545 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-04-23 11:38:06.050 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:38:08.987 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:38:08.987 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:38:09.012 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:38:09.013 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:38:09.145 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:38:09.220 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:38:09.888 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:38:09.888 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:38:09.888 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:38:09.946 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:38:09.949 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:38:10.078 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:38:10.132 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:38:10.132 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:38:10.132 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:38:10.133 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:38:10.133 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:38:10.134 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:38:10.134 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:38:10.134 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:38:10.134 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:38:10.144 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:38:10.149 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:38:10.225 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:38:10.309 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:38:10.309 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:38:10.310 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:38:10.310 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:38:10.311 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:38:10.312 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:38:10.312 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:38:10.312 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:38:10.312 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:38:10.330 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:38:10.332 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:38:10.393 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:38:10.428 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:38:10.428 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:38:10.428 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:38:10.428 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:38:10.432 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:38:10.432 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:38:10.432 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:38:10.432 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:38:10.436 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:38:10.447 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[DEBUG] 2020-04-23 11:38:10.447 [main] RetryAnalyzerListener - --- Exiting Retry ----
+[INFO ] 2020-04-23 11:38:10.453 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[DEBUG] 2020-04-23 11:38:11.142 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 11:38:12.069 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 11:39:24.987 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 11:39:25.007 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 11:39:25.007 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 11:39:25.007 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:39:25.007 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 11:39:25.007 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 11:39:25.013 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 11:39:25.013 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 11:39:25.013 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:39:25.014 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 11:39:25.014 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 11:39:34.092 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:39:34.785 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:39:34.786 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:39:34.786 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:39:34.786 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:39:34.795 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:39:34.795 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:39:34.795 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:39:34.795 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:39:34.813 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:39:38.050 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:39:38.057 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:39:38.119 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:39:38.119 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:39:38.299 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-04-23 11:39:38.381 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:39:39.800 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:39:39.801 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:39:39.801 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:39:49.178 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-04-23 11:39:49.204 [main] Test99GuruLogin - Test is verified.
+[INFO ] 2020-04-23 11:39:49.207 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-04-23 11:39:49.560 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:39:51.650 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:39:51.650 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:39:51.683 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:39:51.683 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:39:51.793 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:39:51.872 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:39:52.588 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:39:52.588 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:39:52.588 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:39:52.608 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:41:17.502 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:41:17.573 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:41:17.603 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:41:17.603 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:41:17.603 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:41:17.604 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:41:17.604 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:41:17.604 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:41:17.605 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:41:17.605 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:41:17.606 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:41:19.483 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:41:19.484 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:41:19.516 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:41:19.516 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:41:19.605 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:41:19.697 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:41:20.139 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:41:20.139 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:41:20.139 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:41:20.150 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:41:30.437 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:41:30.506 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:41:30.557 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:41:30.557 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:41:30.557 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:41:30.557 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:41:30.557 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:41:30.557 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:41:30.561 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:41:30.561 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:41:30.562 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:41:32.388 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:41:32.388 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:41:32.424 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:41:32.424 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:41:32.518 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:41:32.602 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:41:33.000 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:41:33.000 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:41:33.000 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:41:33.008 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:41:47.781 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:41:47.847 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:41:47.897 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:41:47.897 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:41:47.898 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:41:47.898 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:41:47.898 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:41:47.898 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:41:47.899 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:41:47.900 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:41:47.902 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:41:49.841 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:41:49.841 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:41:49.903 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:41:49.904 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:41:50.015 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:41:50.103 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:41:50.806 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:41:50.807 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:41:50.807 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:41:50.819 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[DEBUG] 2020-04-23 11:42:04.641 [main] RetryAnalyzerListener - --- Exiting Retry ----
+[INFO ] 2020-04-23 11:42:04.646 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[DEBUG] 2020-04-23 11:42:05.212 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 11:42:06.060 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 11:45:39.094 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 11:45:39.098 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 11:45:39.099 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:45:39.099 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 11:45:39.099 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 11:45:39.100 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 11:45:39.100 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 11:45:39.101 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:45:39.101 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 11:45:39.101 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 11:45:47.097 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:45:47.785 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:45:47.790 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:45:47.790 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:45:47.791 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:45:47.795 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:45:47.795 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:45:47.799 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:45:47.799 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[DEBUG] 2020-04-23 11:45:51.869 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:45:51.871 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:45:51.918 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:45:51.918 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:45:52.070 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-04-23 11:45:52.193 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:45:54.054 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:45:54.054 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:45:54.056 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:45:54.095 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-04-23 11:45:54.138 [main] Test99GuruLogin - Test is verified.
+[DEBUG] 2020-04-23 11:45:56.857 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:45:56.857 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:45:56.886 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:45:56.886 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:45:56.974 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:45:57.055 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:45:57.796 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:45:57.796 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:45:57.796 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:45:58.544 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 11:46:26.522 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 11:46:26.536 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 11:46:26.536 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 11:46:26.537 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:46:26.537 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 11:46:26.537 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 11:46:26.538 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 11:46:26.538 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 11:46:26.538 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:46:26.538 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 11:46:26.538 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 11:46:34.560 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:46:35.249 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:46:35.250 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:46:35.250 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:46:35.251 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:46:35.254 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:46:35.257 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:46:35.257 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:46:35.258 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:46:35.269 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:46:38.748 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:46:38.752 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:46:38.803 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:46:38.804 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:46:39.015 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-04-23 11:46:39.111 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:46:40.748 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:46:40.748 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:46:40.749 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:46:40.831 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-04-23 11:46:40.859 [main] Test99GuruLogin - Test is verified.
+[INFO ] 2020-04-23 11:46:40.861 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-04-23 11:46:41.315 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:46:43.771 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:46:43.771 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:46:43.800 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:46:43.800 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:46:43.918 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:46:43.984 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:46:44.399 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:46:44.400 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:46:44.400 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:46:44.416 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:46:44.419 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:46:44.477 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:46:44.549 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:46:44.550 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:46:44.550 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:46:44.550 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:46:44.550 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:46:44.551 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:46:44.551 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:46:44.551 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:46:44.552 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:46:44.600 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:46:44.603 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:46:44.651 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:46:44.705 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:46:44.705 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:46:44.706 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:46:44.706 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:46:44.710 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:46:44.711 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:46:44.711 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:46:44.712 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:46:44.713 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:46:44.736 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:46:44.739 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:46:44.780 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:46:44.805 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:46:44.805 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:46:44.805 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:46:44.805 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:46:44.806 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:46:44.808 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:46:44.808 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:46:44.808 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:46:44.810 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:46:44.834 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[DEBUG] 2020-04-23 11:46:44.834 [main] RetryAnalyzerListener - --- Exiting Retry ----
+[INFO ] 2020-04-23 11:46:44.837 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[DEBUG] 2020-04-23 11:46:45.240 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 11:46:50.026 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 11:47:50.513 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 11:47:50.522 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 11:47:50.522 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 11:47:50.527 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:47:50.527 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 11:47:50.527 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 11:47:50.528 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 11:47:50.528 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 11:47:50.528 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:47:50.528 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 11:47:50.528 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 11:47:58.282 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:47:58.952 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:47:58.957 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:47:58.957 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:47:58.957 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:47:58.969 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:47:58.969 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:47:58.973 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:47:58.978 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:47:58.997 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:48:02.073 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:48:02.077 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:48:02.119 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:48:02.120 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:48:02.315 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-04-23 11:48:02.425 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:48:04.186 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:48:04.186 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:48:04.186 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:48:04.223 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-04-23 11:48:04.253 [main] Test99GuruLogin - Test is verified.
+[INFO ] 2020-04-23 11:48:04.256 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-04-23 11:48:13.845 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:48:15.633 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:48:15.633 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:48:15.723 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:48:15.723 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:48:15.913 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:48:16.003 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:48:21.586 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:48:21.586 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:48:21.586 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:48:21.605 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:48:39.396 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:48:54.226 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:48:54.258 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:48:54.259 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:48:54.259 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:48:54.259 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:48:54.260 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:48:54.261 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:48:54.261 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:48:54.261 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:48:54.261 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:48:57.168 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:48:57.168 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:48:57.202 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:48:57.203 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:48:57.290 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:48:57.374 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:48:57.782 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:48:57.782 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:48:57.782 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:48:57.789 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:49:18.655 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:49:34.129 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:49:34.162 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:49:34.162 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:49:34.162 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:49:34.162 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:49:34.163 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:49:34.164 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:49:34.164 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:49:34.164 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:49:34.165 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:49:34.174 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:49:50.553 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:51:33.462 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:51:33.525 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:51:33.525 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:51:33.525 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:51:33.526 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:51:33.526 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:51:33.526 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:51:33.526 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:51:33.527 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:51:33.528 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:51:33.539 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[DEBUG] 2020-04-23 11:51:40.040 [main] RetryAnalyzerListener - --- Exiting Retry ----
+[INFO ] 2020-04-23 11:51:42.715 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[DEBUG] 2020-04-23 11:52:06.699 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 11:52:07.607 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 11:52:51.961 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 11:52:51.973 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 11:52:51.973 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 11:52:51.973 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:52:51.974 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 11:52:51.975 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 11:52:51.975 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 11:52:51.975 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 11:52:51.975 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 11:52:51.976 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 11:52:51.976 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 11:52:59.507 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:53:00.107 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:53:00.107 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:53:00.107 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:53:00.107 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:53:00.111 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:53:00.115 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:53:00.115 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:53:00.115 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:53:00.127 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:53:03.172 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:53:03.178 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:53:03.222 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:53:03.222 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:53:03.347 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-04-23 11:53:03.468 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:53:05.031 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:53:05.031 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:53:05.032 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:53:05.076 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-04-23 11:53:05.105 [main] Test99GuruLogin - Test is verified.
+[INFO ] 2020-04-23 11:53:05.108 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-04-23 11:53:05.587 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:53:07.418 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 11:53:07.420 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 11:53:07.461 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 11:53:07.461 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 11:53:07.589 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 11:53:07.685 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 11:53:08.207 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 11:53:08.207 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 11:53:08.207 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 11:53:08.226 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:53:08.233 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:53:08.344 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:53:08.405 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:53:08.405 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:53:08.405 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:53:08.405 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:53:08.406 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:53:08.406 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:53:08.407 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:53:08.407 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:53:08.408 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:53:08.420 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:53:08.422 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:53:08.493 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:53:08.533 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:53:08.533 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:53:08.533 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:53:08.533 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:53:08.534 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:53:08.537 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:53:08.537 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:53:08.538 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:53:08.539 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:53:08.546 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[INFO ] 2020-04-23 11:53:08.551 [main] TestNGListeners - ***** Test Skipped *******verifyLoginPage
+[INFO ] 2020-04-23 11:53:08.609 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 11:53:08.648 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 11:53:08.648 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 11:53:08.648 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 11:53:08.648 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 11:53:08.648 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:53:08.654 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 11:53:08.657 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 11:53:08.657 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 11:53:08.665 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 11:53:08.672 [main] RetryAnalyzerListener - --- Executing Failed test case again ----
+[DEBUG] 2020-04-23 11:53:08.672 [main] RetryAnalyzerListener - --- Exiting Retry ----
+[INFO ] 2020-04-23 11:53:08.676 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[DEBUG] 2020-04-23 11:53:09.290 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 11:53:10.122 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:09:08.612 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:09:08.625 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 12:09:08.625 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 12:09:08.625 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:09:08.626 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 12:09:08.626 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 12:09:08.627 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 12:09:08.627 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 12:09:08.627 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:09:08.628 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 12:09:08.628 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 12:09:16.585 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 12:09:17.204 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 12:09:17.220 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 12:09:17.220 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 12:09:17.220 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 12:09:17.220 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:09:17.220 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 12:09:17.220 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:09:17.220 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 12:09:17.251 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 12:09:20.499 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:09:20.500 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:09:20.568 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:09:20.568 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:09:20.743 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-04-23 12:09:20.835 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:09:22.564 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:09:22.564 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 12:09:22.565 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 12:09:22.609 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-04-23 12:09:22.637 [main] Test99GuruLogin - Test is verified.
+[INFO ] 2020-04-23 12:09:22.640 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-04-23 12:09:23.343 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 12:09:25.137 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:09:25.137 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:09:25.165 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:09:25.165 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:09:25.296 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 12:09:25.397 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:09:26.020 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:09:26.020 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 12:09:26.021 [main] Test99GuruLogin - Verify home page
+[INFO ] 2020-04-23 12:09:26.050 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[DEBUG] 2020-04-23 12:09:26.651 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 12:09:27.985 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:11:08.659 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:11:08.671 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 12:11:08.671 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 12:11:08.678 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:11:08.679 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 12:11:08.679 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 12:11:08.680 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 12:11:08.680 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 12:11:08.680 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:11:08.680 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 12:11:08.680 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 12:11:16.310 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 12:11:16.920 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 12:11:16.920 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 12:11:16.920 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 12:11:16.920 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 12:11:16.933 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:11:16.935 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 12:11:16.937 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:11:16.938 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 12:11:16.946 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 12:11:20.852 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:11:20.856 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:11:20.910 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:11:20.910 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:11:21.072 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-04-23 12:11:21.213 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:11:23.526 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:11:23.530 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 12:11:23.530 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 12:11:23.596 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-04-23 12:11:23.665 [main] Test99GuruLogin - Test is verified.
+[INFO ] 2020-04-23 12:11:23.666 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-04-23 12:11:24.158 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 12:11:26.280 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:11:26.281 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:11:26.312 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:11:26.312 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:11:26.432 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 12:11:26.517 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:11:27.191 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:11:27.191 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 12:11:27.191 [main] Test99GuruLogin - Verify home page
+[INFO ] 2020-04-23 12:11:27.237 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[DEBUG] 2020-04-23 12:11:27.891 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 12:11:28.812 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:12:46.798 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:12:46.820 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 12:12:46.820 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 12:12:46.820 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:12:46.829 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 12:12:46.830 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 12:12:46.831 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 12:12:46.831 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 12:12:46.832 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:12:46.832 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 12:12:46.833 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 12:12:55.292 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 12:12:56.042 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 12:12:56.043 [main] ExcelUtils - Row Count Value is: 1
+[DEBUG] 2020-04-23 12:12:56.043 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 12:12:56.043 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 12:12:56.048 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:12:56.052 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 12:12:56.064 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 12:12:59.901 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:12:59.904 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:12:59.947 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:12:59.948 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:13:00.326 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 12:13:00.408 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:13:01.055 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:13:01.055 [main] Test99GuruLogin - go the next page
+[DEBUG] 2020-04-23 12:13:01.056 [main] Test99GuruLogin - Verify home page
+[INFO ] 2020-04-23 12:13:01.105 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[DEBUG] 2020-04-23 12:13:02.109 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 12:13:07.133 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:15:28.972 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 12:15:28.984 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 12:15:28.984 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:15:28.985 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 12:15:28.985 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 12:15:28.986 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 12:15:28.987 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 12:15:28.987 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:15:28.987 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 12:15:28.987 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 12:15:36.719 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 12:15:37.183 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 12:15:37.185 [main] ExcelUtils - Row Count Value is: 1
+[DEBUG] 2020-04-23 12:15:37.185 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 12:15:37.186 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 12:15:37.192 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:15:37.192 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[DEBUG] 2020-04-23 12:15:46.050 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:15:46.055 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:15:46.133 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:15:46.133 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:15:46.343 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 12:15:46.496 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:15:47.183 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:15:47.184 [main] Test99GuruLogin - Go the next page
+[DEBUG] 2020-04-23 12:15:47.184 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 12:16:52.977 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 12:29:42.398 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:29:42.419 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 12:29:42.432 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 12:29:42.432 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:29:42.433 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 12:29:42.433 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 12:29:42.434 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 12:29:42.434 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 12:29:42.435 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:29:42.435 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 12:29:42.435 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 12:29:51.505 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 12:29:52.253 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 12:29:52.256 [main] ExcelUtils - Row Count Value is: 1
+[DEBUG] 2020-04-23 12:29:52.256 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 12:29:52.256 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 12:29:52.266 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:29:52.266 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 12:29:52.288 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 12:30:02.179 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:30:02.189 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:30:11.755 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:30:11.755 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:30:11.977 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 12:30:12.302 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:30:22.028 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:30:22.028 [main] Test99GuruLogin - Go the next page
+[DEBUG] 2020-04-23 12:30:22.069 [main] Test99GuruLogin - Verify home page
+[INFO ] 2020-04-23 12:30:32.579 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[DEBUG] 2020-04-23 12:30:56.761 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 12:31:06.926 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:32:47.213 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:32:47.228 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 12:32:47.228 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 12:32:47.229 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:32:47.230 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 12:32:47.230 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 12:32:47.231 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 12:32:47.231 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 12:32:47.234 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:32:47.234 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 12:32:47.234 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 12:32:56.021 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 12:32:56.857 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 12:32:56.858 [main] ExcelUtils - Row Count Value is: 1
+[DEBUG] 2020-04-23 12:32:56.858 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 12:32:56.859 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 12:32:56.868 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:32:56.869 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 12:32:56.879 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 12:33:00.528 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:33:00.532 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:33:00.608 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:33:00.608 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:33:00.863 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 12:33:01.053 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:33:01.471 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:33:01.471 [main] Test99GuruLogin - Go the next page
+[DEBUG] 2020-04-23 12:33:01.472 [main] Test99GuruLogin - Verify home page
+[INFO ] 2020-04-23 12:33:01.493 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[ERROR] 2020-04-23 12:33:02.108 [main] Test99GuruLogin - Error Message: User or Password is not valid
+[DEBUG] 2020-04-23 12:33:02.863 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 12:33:08.844 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:36:00.745 [main] TestNGListeners - ***** Test Started *******TestGuru99DemoSite
+[INFO ] 2020-04-23 12:36:00.765 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-23 12:36:00.765 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-23 12:36:00.767 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:36:00.769 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-04-23 12:36:00.770 [main] ConfigGenerator - ================================
+[INFO ] 2020-04-23 12:36:00.771 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-04-23 12:36:00.771 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-04-23 12:36:00.773 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-04-23 12:36:00.773 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-04-23 12:36:00.773 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-04-23 12:36:10.354 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-23 12:36:11.082 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-23 12:36:11.083 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-04-23 12:36:11.085 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-23 12:36:11.085 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-23 12:36:11.091 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:36:11.091 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-04-23 12:36:11.092 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-04-23 12:36:11.092 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-04-23 12:36:11.100 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 12:36:15.204 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:36:15.208 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:36:15.305 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:36:15.305 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:36:15.599 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-04-23 12:36:15.760 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:36:17.610 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:36:17.610 [main] Test99GuruLogin - Go the next page
+[DEBUG] 2020-04-23 12:36:17.611 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-04-23 12:36:17.670 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-04-23 12:36:17.693 [main] Test99GuruLogin - Test is verified.
+[INFO ] 2020-04-23 12:36:17.694 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-04-23 12:36:18.275 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-04-23 12:36:21.487 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-04-23 12:36:21.487 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-04-23 12:36:21.542 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-04-23 12:36:21.542 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-04-23 12:36:21.763 [main] Guru99Login - Setting password vEhYneg1 in Password textbox
+[DEBUG] 2020-04-23 12:36:21.898 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-04-23 12:36:22.311 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-04-23 12:36:22.311 [main] Test99GuruLogin - Go the next page
+[DEBUG] 2020-04-23 12:36:22.311 [main] Test99GuruLogin - Verify home page
+[INFO ] 2020-04-23 12:36:22.358 [main] TestNGListeners - ***** Test Failed *******verifyLoginPage
+[ERROR] 2020-04-23 12:36:23.048 [main] Test99GuruLogin - Error Message: User or Password is not valid
+[DEBUG] 2020-04-23 12:36:23.139 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
+[INFO ] 2020-04-23 12:36:29.055 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite

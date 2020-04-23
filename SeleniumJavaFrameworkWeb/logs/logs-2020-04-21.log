@@ -1,0 +1,29 @@
+[INFO ] 2020-04-21 23:53:38.751 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-21 23:53:38.756 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-21 23:53:38.757 [main] LoginPage - ==== Config paramaters ========
+[INFO ] 2020-04-21 23:53:38.757 [main] LoginPage - [{browser=Chrome, browserversion=2.36, baseURL=https://phptravels.com/demo/}]
+[INFO ] 2020-04-21 23:53:38.757 [main] LoginPage - ================================
+[INFO ] 2020-04-21 23:53:47.077 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-21 23:53:47.601 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-21 23:53:47.602 [main] ExcelUtils - Row Count Value is: 1
+[DEBUG] 2020-04-21 23:53:47.602 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-21 23:53:47.603 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-21 23:53:47.618 [main] ExcelDataProvider -  Test data values available: [{UserName=admin}]
+[INFO ] 2020-04-21 23:53:47.619 [main] ExcelDataProvider -  Test data values available: [{UserName=admin, Password=af123}]
+[INFO ] 2020-04-21 23:53:53.798 [main] LoginPage - admin | af123
+[INFO ] 2020-04-21 23:55:43.727 [main] TestNGListeners - ***** Test Started *******Test
+[INFO ] 2020-04-21 23:55:43.742 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-04-21 23:55:43.744 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-04-21 23:55:43.744 [main] LoginPage - ==== Config paramaters ========
+[INFO ] 2020-04-21 23:55:43.745 [main] LoginPage - [{browser=Chrome, browserversion=2.36, baseURL=https://phptravels.com/demo/}]
+[INFO ] 2020-04-21 23:55:43.745 [main] LoginPage - ================================
+[INFO ] 2020-04-21 23:55:51.815 [main] ExcelUtils - Reading from Excel file at location: E:\Workspace\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-04-21 23:55:52.246 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-04-21 23:55:52.247 [main] ExcelUtils - Row Count Value is: 1
+[DEBUG] 2020-04-21 23:55:52.247 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-04-21 23:55:52.247 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-04-21 23:55:52.253 [main] ExcelDataProvider -  Test data values available: [{UserName=admin}]
+[INFO ] 2020-04-21 23:55:52.253 [main] ExcelDataProvider -  Test data values available: [{UserName=admin, Password=af123}]
+[INFO ] 2020-04-21 23:55:52.263 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[INFO ] 2020-04-21 23:55:57.649 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-04-21 23:56:03.107 [main] TestNGListeners - ***** Test Completed *******Test
