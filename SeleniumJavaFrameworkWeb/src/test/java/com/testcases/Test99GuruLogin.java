@@ -192,7 +192,6 @@ public class Test99GuruLogin {
 	@AfterTest
 	public void afterTest() {
 
-
 		logger.debug("Going to close the browser and perform the cleaning process");
 		driver.close();
 		driver.quit();
