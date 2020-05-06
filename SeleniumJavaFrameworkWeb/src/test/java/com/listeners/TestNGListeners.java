@@ -19,26 +19,27 @@ public class TestNGListeners extends GenericFunctionLib implements ITestListener
 	ExtentReports extent =ExtentTestReportManager.extentRepotGeneratorNG();
 	ExtentTest test;
 
-	public void onStart(ITestResult result) {
-		// TODO Auto-generated method stub
-		System.out.println("Inside onStart(ITestContext context)");
+	@Override
+	public void onTestStart(ITestResult result) {
 		logger.info("***** Test Started *******"+ result.getName());
 		test = extent.createTest(result.getMethod().getMethodName());
-		
-
 	}
-
+	
+	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		logger.info("***** Test Failed But with in success percentage *******"+ result.getMethod());
-		
-	}
 
+	}
+	
+	@Override
 	public void onTestFailure(ITestResult result) {
 		WebDriver driver=null;
 		logger.info("***** Test Failed *******"+ result.getMethod());
 		test.fail(result.getThrowable());
 		Object testObject=result.getInstance();
 		Class testclass=result.getTestClass().getRealClass();
+
+
 		try {
 			driver=(WebDriver)testclass.getDeclaredField("driver").get(testObject);
 		} catch (Exception e) {
@@ -51,36 +52,36 @@ public class TestNGListeners extends GenericFunctionLib implements ITestListener
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-	}
 
+	}
+	
+	@Override
 	public void onTestSkipped(ITestResult result) {
 		logger.info("***** Test Skipped *******"+ result.getMethod());
 
 	}
 
-	public void onTestStart(ITestResult result) {
-		logger.info("***** Test Started *******"+ result.getName());
-	}
 
+	@Override
 	public void onTestSuccess(ITestResult result) {
 		logger.info("***** Test Successfull *******"+ result.getMethod().getMethodName());
 		test.log(Status.PASS, "Test is passed successfully ");
 	}
-
+	
+	@Override
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
-		
-		System.out.println("Inside onStartMethod(ITestContext context)");
-		
-	}
 
+		System.out.println("Inside onStartMethod(ITestContext context)");
+
+	}
+	
+	@Override
 	public void onFinish(ITestContext context) {
 		// TODO Auto-generated method stub
-		
+
 		System.out.println("Inside onFinish(ITestContext context)");
 		extent.flush();
-		
 	}
 
 

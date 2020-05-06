@@ -153,44 +153,10 @@ public class Test99GuruLogin {
 	}
 
 
+	
+
 	@AfterMethod
-	public void tearDown(ITestResult result) throws Exception {
-
-
-		try{
-			String screenShotPath=null;
-			if (result.getStatus() == ITestResult.FAILURE) {
-				//your screenshooting code goes here	
-				screenShotPath= GenericFunctionLib.takeSnapShot(driver);
-				extentTestLogger.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(screenShotPath,"Screen shot attached").build());
-
-			}     
-		}
-		catch (UnhandledAlertException f) {
-			try {
-
-				GenericFunctionLib.takeAlertScreenShot();
-				Alert alert = driver.switchTo().alert();
-				String alertText = alert.getText();
-				System.out.println("Alert data: " + alertText);
-				logger.error("Error Message: "+alertText);
-				alert.accept();
-				extentTestLogger.fail(result.getThrowable().getMessage()+"---- Check Screenshot for more details.");
-			} catch (NoAlertPresentException e) {
-				e.printStackTrace();
-			}
-
-		}
-		finally{
-
-			extent.flush();
-		}
-
-	}
-
-
-	@AfterTest
-	public void afterTest() {
+	public void afterMethod() {
 
 		logger.debug("Going to close the browser and perform the cleaning process");
 		driver.close();
