@@ -53,4 +53,25 @@ public class ExtentTestReportManager {
 	}
 	
 	
+	public static ExtentReports extentRepotGeneratorNG(){
+
+		// start reporters
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent.html");
+
+		// create ExtentReports and attach reporter(s)
+		ExtentReports extent = new ExtentReports();
+		extent.attachReporter(htmlReporter);
+		extent.setSystemInfo("os", "Windows");
+		extent.setSystemInfo("Environment", "Automation Testing");
+		extent.setSystemInfo("User Name", "Ajay Kumar Verma");
+
+		htmlReporter.config().setDocumentTitle("Final Execution Report");
+		htmlReporter.config().setReportName("Selenium Web Automation Report");
+		htmlReporter.config().setTheme(Theme.STANDARD);
+
+
+		return extent;
+
+	}
+	
 }

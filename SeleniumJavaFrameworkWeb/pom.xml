@@ -4,6 +4,8 @@
 	<groupId>SeleniumJavaFrameworkWeb</groupId>
 	<artifactId>SeleniumJavaFrameworkWeb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<name>SeleniumJavaFrameworkWeb</name>
+	<url>https://github.com/averma247/SeleniumJavaFrameworkWeb</url>
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -80,4 +82,5 @@
 		</plugins>
 	</build>
 
+	
 </project>

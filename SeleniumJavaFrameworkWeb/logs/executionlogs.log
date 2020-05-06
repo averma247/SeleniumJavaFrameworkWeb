@@ -754,3 +754,269 @@
 [ERROR] 2020-04-23 12:36:23.048 [main] Test99GuruLogin - Error Message: User or Password is not valid
 [DEBUG] 2020-04-23 12:36:23.139 [main] Test99GuruLogin - Going to close the browser and perform the cleaning process
 [INFO ] 2020-04-23 12:36:29.055 [main] TestNGListeners - ***** Test Completed *******TestGuru99DemoSite
+[INFO ] 2020-05-06 13:13:37.573 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:13:37.577 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:13:37.577 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:13:37.578 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-05-06 13:13:37.579 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:13:37.579 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:13:37.580 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:13:37.580 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:13:37.580 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:13:37.580 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:13:45.366 [main] ExcelUtils - Reading from Excel file at location: E:\SeleniumJavaWebFramework\SeleniumJavaFrameworkWeb/databank/data.xlsx
+[INFO ] 2020-05-06 13:13:45.900 [main] ExcelUtils - Excel file read succesfully.
+[DEBUG] 2020-05-06 13:13:45.902 [main] ExcelUtils - Row Count Value is: 2
+[DEBUG] 2020-05-06 13:13:45.902 [main] ExcelUtils - Last Column Count Value is: 2
+[INFO ] 2020-05-06 13:13:45.902 [main] ExcelDataProvider - Reading Cell Data
+[INFO ] 2020-05-06 13:13:45.909 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-05-06 13:13:45.910 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg}]
+[INFO ] 2020-05-06 13:13:45.911 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193}]
+[INFO ] 2020-05-06 13:13:45.912 [main] ExcelDataProvider -  Test data values available: [{UserName=mngr257193, Password=vEhYneg1}]
+[INFO ] 2020-05-06 13:13:45.921 [main] TestNGListeners - ***** Test Started *******verifyLoginPage
+[DEBUG] 2020-05-06 13:13:49.201 [main] Test99GuruLogin - Create Login Page object
+[DEBUG] 2020-05-06 13:13:49.204 [main] Test99GuruLogin - Verify login page title
+[DEBUG] 2020-05-06 13:13:49.258 [main] Test99GuruLogin - login to application
+[DEBUG] 2020-05-06 13:13:49.258 [main] Guru99Login - Setting user name mngr257193 in User Name textbox
+[DEBUG] 2020-05-06 13:13:49.411 [main] Guru99Login - Setting password vEhYneg in Password textbox
+[DEBUG] 2020-05-06 13:13:49.581 [main] Guru99Login - Going to click on Login Button
+[DEBUG] 2020-05-06 13:13:51.206 [main] Guru99Login - Clicked on Login Button
+[DEBUG] 2020-05-06 13:13:51.206 [main] Test99GuruLogin - Go the next page
+[DEBUG] 2020-05-06 13:13:51.207 [main] Test99GuruLogin - Verify home page
+[DEBUG] 2020-05-06 13:13:51.248 [main] Test99GuruLogin - User name from Home Page: Manger Id : mngr257193
+[DEBUG] 2020-05-06 13:13:51.313 [main] Test99GuruLogin - Test is verified.
+[INFO ] 2020-05-06 13:13:51.317 [main] TestNGListeners - ***** Test Successfull *******verifyLoginPage
+[INFO ] 2020-05-06 13:13:51.319 [main] TestNGListeners - ***** Test Failed *******Test99GuruLogin.verifyLoginPage(java.util.HashMap)[pri:0, instance:com.testcases.Test99GuruLogin@26b3fd41]
+[INFO ] 2020-05-06 13:15:38.003 [main] TestNGListeners - ***** Test Started *******verifyValidUsers
+[INFO ] 2020-05-06 13:15:38.019 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:15:38.019 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:15:38.020 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:15:38.021 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://demo.guru99.com/V4/}]
+[INFO ] 2020-05-06 13:15:38.022 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:15:38.023 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:15:38.023 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:15:38.024 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:15:38.025 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:15:38.025 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:15:49.112 [main] TestNGListeners - ***** Test Successfull *******verifyValidUsers
+[INFO ] 2020-05-06 13:15:49.117 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsers()[pri:0, instance:com.testcases.TC_001_LoginPageTest@1f59a598]
+[INFO ] 2020-05-06 13:19:53.382 [main] TestNGListeners - ***** Test Started *******verifyValidUsers
+[INFO ] 2020-05-06 13:19:53.407 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:19:53.409 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:19:53.410 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:19:53.411 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:19:53.412 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:19:53.415 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:19:53.416 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:19:53.419 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:19:53.419 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:19:53.420 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:20:10.461 [main] TestNGListeners - ***** Test Successfull *******verifyValidUsers
+[INFO ] 2020-05-06 13:20:10.466 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsers()[pri:0, instance:com.testcases.TC_001_LoginPageTest@1f59a598]
+[INFO ] 2020-05-06 13:21:37.998 [main] TestNGListeners - ***** Test Started *******verifyValidUsersFail
+[INFO ] 2020-05-06 13:21:38.054 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:21:38.054 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:21:38.054 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:21:38.055 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:21:38.055 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:21:38.058 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:21:38.058 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:21:38.058 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:21:38.058 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:21:38.058 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:24:07.764 [main] TestNGListeners - ***** Test Started *******verifyValidUsersPass
+[INFO ] 2020-05-06 13:24:07.796 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:24:07.796 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:24:07.796 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:24:07.797 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:24:07.797 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:24:07.799 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:24:07.799 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:24:07.799 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:24:07.800 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:24:07.802 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:24:29.894 [main] TestNGListeners - ***** Test Successfull *******verifyValidUsersPass
+[INFO ] 2020-05-06 13:24:57.089 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersPass()[pri:0, instance:com.testcases.TC_001_LoginPageTest@4af0df05]
+[INFO ] 2020-05-06 13:33:21.445 [main] TestNGListeners - ***** Test Started *******verifyValidUsersFail
+[INFO ] 2020-05-06 13:33:29.560 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:33:29.561 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:33:29.561 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:33:29.562 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:33:29.563 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:33:29.565 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:33:29.565 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:33:29.565 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:33:29.566 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:33:29.566 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:33:53.652 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@4af0df05]
+[INFO ] 2020-05-06 13:34:04.885 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@4af0df05]
+[INFO ] 2020-05-06 13:36:51.825 [main] TestNGListeners - ***** Test Started *******verifyValidUsersFail
+[INFO ] 2020-05-06 13:36:51.837 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:36:51.837 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:36:51.837 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:36:51.838 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:36:51.839 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:36:51.839 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:36:51.840 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:36:51.840 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:36:51.840 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:36:51.840 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:37:07.117 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@7690781]
+[INFO ] 2020-05-06 13:37:07.120 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@7690781]
+[INFO ] 2020-05-06 13:37:19.184 [main] TestNGListeners - ***** Test Started *******verifyValidUsersFail
+[INFO ] 2020-05-06 13:37:19.207 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:37:19.207 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:37:19.207 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:37:19.207 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:37:19.208 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:37:19.210 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:37:19.210 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:37:19.211 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:37:19.211 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:37:19.211 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:37:54.315 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@4af0df05]
+[INFO ] 2020-05-06 13:39:17.088 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@4af0df05]
+[INFO ] 2020-05-06 13:42:55.568 [main] TestNGListeners - ***** Test Started *******verifyValidUsersFail
+[INFO ] 2020-05-06 13:42:55.580 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:42:55.580 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:42:55.581 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:42:55.581 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:42:55.581 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:42:55.582 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:42:55.582 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:42:55.583 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:42:55.583 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:42:55.583 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:43:10.648 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@7690781]
+[INFO ] 2020-05-06 13:43:10.651 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@7690781]
+[INFO ] 2020-05-06 13:46:10.859 [main] TestNGListeners - ***** Test Started *******verifyValidUsersPass
+[INFO ] 2020-05-06 13:46:10.867 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:46:10.868 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:46:10.868 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:46:10.869 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:46:10.869 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:46:10.869 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:46:10.869 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:46:10.870 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:46:10.870 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:46:10.870 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:46:26.723 [main] TestNGListeners - ***** Test Successfull *******verifyValidUsersPass
+[INFO ] 2020-05-06 13:46:26.730 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersPass()[pri:0, instance:com.testcases.TC_001_LoginPageTest@7690781]
+[INFO ] 2020-05-06 13:47:13.967 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:47:13.971 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:47:13.971 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:47:13.972 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:47:13.972 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:47:13.973 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:47:13.973 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:47:13.974 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:47:13.974 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:47:13.974 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 13:59:47.722 [main] TestNGListeners - ***** Test Started *******verifyValidUsersPass
+[INFO ] 2020-05-06 13:59:47.733 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 13:59:47.733 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 13:59:47.733 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:59:47.733 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 13:59:47.733 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 13:59:47.733 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 13:59:47.737 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 13:59:47.737 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 13:59:47.737 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 13:59:47.737 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 14:00:12.188 [main] TestNGListeners - ***** Test Successfull *******verifyValidUsersPass
+[INFO ] 2020-05-06 14:00:12.193 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersPass()[pri:0, instance:com.testcases.TC_001_LoginPageTest@7690781]
+[INFO ] 2020-05-06 14:05:15.990 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 14:05:15.997 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 14:05:15.997 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:05:15.998 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 14:05:15.998 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 14:05:16.000 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 14:05:16.000 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 14:05:16.000 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:05:16.001 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 14:05:16.001 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 14:06:38.737 [main] TestNGListeners - ***** Test Started *******verifyValidUsersPass
+[INFO ] 2020-05-06 14:06:38.747 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 14:06:38.748 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 14:06:38.749 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:06:38.749 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 14:06:38.750 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 14:06:38.750 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 14:06:38.750 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 14:06:38.751 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:06:38.752 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 14:06:38.752 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 14:06:59.328 [main] TestNGListeners - ***** Test Successfull *******verifyValidUsersPass
+[INFO ] 2020-05-06 14:06:59.333 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersPass()[pri:0, instance:com.testcases.TC_001_LoginPageTest@7690781]
+[INFO ] 2020-05-06 14:11:49.331 [main] TestNGListenersDummy - ***** Test Started *******TC_001_LoginPageTest.verifyValidUsersPass()[pri:0, instance:com.testcases.TC_001_LoginPageTest@4135c3b]
+[INFO ] 2020-05-06 14:11:49.344 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 14:11:49.348 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 14:11:49.348 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:11:49.348 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 14:11:49.348 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 14:11:49.348 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 14:11:49.348 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 14:11:49.348 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:11:49.348 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 14:11:49.348 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 14:12:27.706 [main] TestNGListenersDummy - ***** Test success  *******TC_001_LoginPageTest.verifyValidUsersPass()[pri:0, instance:com.testcases.TC_001_LoginPageTest@4135c3b]
+[INFO ] 2020-05-06 14:18:30.462 [main] TestNGListeners - ***** Test Started *******verifyValidUsersPass
+[INFO ] 2020-05-06 14:18:30.525 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 14:18:30.525 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 14:18:30.527 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:18:30.528 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 14:18:30.528 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 14:18:30.530 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 14:18:30.530 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 14:18:30.530 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:18:30.530 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 14:18:30.530 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 14:18:50.007 [main] TestNGListeners - ***** Test Successfull *******verifyValidUsersPass
+[INFO ] 2020-05-06 14:20:55.130 [main] TestNGListeners - ***** Test Started *******verifyValidUsersFail
+[INFO ] 2020-05-06 14:20:55.144 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 14:20:55.144 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 14:20:55.145 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:20:55.146 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 14:20:55.146 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 14:20:55.154 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 14:20:55.154 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 14:20:55.154 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:20:55.154 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 14:20:55.154 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 14:21:13.324 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@1f59a598]
+[INFO ] 2020-05-06 14:21:19.787 [main] TestNGListeners - ***** Test Started *******verifyValidUsersPass
+[INFO ] 2020-05-06 14:21:19.788 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 14:21:19.788 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 14:21:19.788 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:21:19.788 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 14:21:19.788 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 14:21:19.788 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 14:21:19.789 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 14:21:19.789 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:21:19.789 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 14:21:19.789 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 14:21:36.089 [main] TestNGListeners - ***** Test Successfull *******verifyValidUsersPass
+[INFO ] 2020-05-06 14:24:20.800 [main] TestNGListeners - ***** Test Started *******verifyValidUsersFail
+[INFO ] 2020-05-06 14:24:20.824 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 14:24:20.825 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 14:24:20.826 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:24:20.828 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 14:24:20.828 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 14:24:20.846 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 14:24:20.846 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 14:24:20.846 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:24:20.846 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 14:24:20.846 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 14:24:39.028 [main] TestNGListeners - ***** Test Failed *******TC_001_LoginPageTest.verifyValidUsersFail()[pri:0, instance:com.testcases.TC_001_LoginPageTest@1f59a598]
+[INFO ] 2020-05-06 14:24:41.381 [main] TestNGListeners - ***** Test Started *******verifyValidUsersPass
+[INFO ] 2020-05-06 14:24:41.381 [main] ConfigGenerator - Goin to read Config file
+[INFO ] 2020-05-06 14:24:41.381 [main] ConfigGenerator - Config file read successfully
+[INFO ] 2020-05-06 14:24:41.381 [main] ConfigGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:24:41.381 [main] ConfigGenerator - [{environment=local, explicitWait=10, implicitWait=10, browser=Chrome, browserversion=2.36, baseURL=http://automationpractice.com/index.php}]
+[INFO ] 2020-05-06 14:24:41.382 [main] ConfigGenerator - ================================
+[INFO ] 2020-05-06 14:24:41.382 [main] ObjectRepositoryGenerator - Goin to read object repository file
+[INFO ] 2020-05-06 14:24:41.382 [main] ObjectRepositoryGenerator - Object repository file read successfully
+[INFO ] 2020-05-06 14:24:41.383 [main] ObjectRepositoryGenerator - ==== Config paramaters =========
+[INFO ] 2020-05-06 14:24:41.383 [main] ObjectRepositoryGenerator - [{titleText=barone, userid=uid, btnLogin=btnLogin, password=password, homePageUserName=//table//tr[@class='heading3']}]
+[INFO ] 2020-05-06 14:24:41.383 [main] ObjectRepositoryGenerator - ================================
+[INFO ] 2020-05-06 14:25:01.284 [main] TestNGListeners - ***** Test Successfull *******verifyValidUsersPass

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Guru99DemoSite">
+<suite name="DemoSite">
 	<listeners>
 		<listener class-name="com.listeners.TestNGListeners"></listener>
 		<!-- <listener class-name="com.listeners.RetryAnalyzerListener"></listener> -->
 	</listeners>
-	<test thread-count="5" name="TestGuru99DemoSite">
+	<test thread-count="5" name="TestDemoSite">
 		<classes>
-			<class name="com.testcases.Test99GuruLogin" />
+			<class name="com.testcases.TC_001_LoginPageTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
